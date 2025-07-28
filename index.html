@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,10 +10,8 @@
     * {
       box-sizing: border-box;
     }
-
     body {
-      margin: 0;
-      padding: 0;
+      margin: 0; padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #ffe6f0;
       color: #333;
@@ -22,46 +19,34 @@
       display: flex;
       flex-direction: column;
     }
-
     a {
       color: #cc4c7d;
       text-decoration: none;
       font-weight: 600;
       transition: color 0.3s ease;
     }
-
-    a:hover,
-    a:focus {
+    a:hover, a:focus {
       color: #a33759;
       text-decoration: underline;
     }
-
     img {
       max-width: 100%;
       border-radius: 10px;
       display: block;
     }
-
-    h1,
-    h2,
-    h3 {
+    h1, h2, h3 {
       color: #cc4c7d;
       text-align: center;
       margin-top: 0;
     }
-
-    p,
-    li,
-    label {
+    p, li, label {
       color: #333;
       line-height: 1.5;
     }
-
     ul {
       padding-left: 20px;
       margin-top: 0;
     }
-
     button {
       background-color: #cc4c7d;
       color: white;
@@ -72,29 +57,21 @@
       border-radius: 6px;
       transition: background-color 0.3s ease;
     }
-
-    button:hover,
-    button:focus {
+    button:hover, button:focus {
       background-color: #a33759;
     }
-
     /* --- Container & Layout --- */
-    header,
-    nav,
-    main,
-    footer {
+    header, nav, main, footer {
       max-width: 900px;
       margin: auto;
       padding: 20px;
     }
-
     footer {
       margin-top: auto;
       text-align: center;
       font-size: 0.9rem;
       color: #cc4c7d;
     }
-
     /* --- Navigation --- */
     nav ul {
       list-style: none;
@@ -104,29 +81,22 @@
       margin: 0;
       gap: 25px;
     }
-
     nav li {
       padding: 5px 0;
     }
-
     nav li.active a {
       border-bottom: 3px solid #cc4c7d;
       font-weight: 700;
     }
-
     /* --- Page Sections --- */
-    .about-section,
-    .contact-section,
-    .form-section {
+    .about-section, .contact-section, .form-section {
       background-color: #ffd6e8;
       border-radius: 12px;
       padding: 20px;
       margin-top: 40px;
       text-align: center;
     }
-
-    .about-section img,
-    .profile-photo {
+    .about-section img, .profile-photo {
       width: 150px;
       height: 150px;
       border-radius: 50%;
@@ -134,20 +104,17 @@
       margin: 0 auto 15px auto;
       box-shadow: 0 4px 8px rgba(204, 76, 125, 0.4);
     }
-
     /* --- Homepage --- */
     #home h1 {
       font-size: 2.5rem;
       margin-bottom: 0;
     }
-
     #home p#hai {
       font-style: italic;
       font-weight: 600;
       color: #a33759;
       margin-bottom: 1.2rem;
     }
-
     #home ul {
       list-style-type: disc;
       max-width: 600px;
@@ -156,20 +123,17 @@
       color: #5c2f43;
       font-weight: 600;
     }
-
     #home img.interest {
       border-radius: 15px;
       margin: 1.5rem auto;
       box-shadow: 0 6px 15px rgba(204, 76, 125, 0.3);
     }
-
     #home h6 {
       font-style: italic;
       margin-top: 0.3rem;
       margin-bottom: 1.5rem;
       color: #7a435e;
     }
-
     /* --- Read More Button --- */
     .read-more-btn {
       background-color: transparent;
@@ -183,12 +147,10 @@
       margin: 20px auto 0;
       display: inline-block;
     }
-
     .read-more-btn:hover {
       background-color: #cc4c7d;
       color: white;
     }
-
     /* --- About Full Page --- */
     #about .bio-text {
       max-width: 700px;
@@ -198,33 +160,25 @@
       line-height: 1.7;
       color: #5c2f43;
     }
-
     /* --- Responsive --- */
     @media (max-width: 600px) {
       nav ul {
         flex-direction: column;
         gap: 10px;
       }
-
-      header,
-      nav,
-      main,
-      footer {
+      header, nav, main, footer {
         padding: 15px 10px;
       }
-
       iframe {
         height: 1000px;
       }
     }
   </style>
 </head>
-
 <body>
 
   <header>
-    <img id="pfp" src="assets/petal-logo.jpg" alt="The Petal Project logo"
-      style="max-width:120px; margin: auto; display: block;">
+    <img id="pfp" src="assets/petal-logo.jpg" alt="The Petal Project logo" style="max-width:120px; margin: auto; display: block;">
     <nav>
       <ul>
         <li class="active"><a href="#home" data-page="home">Home</a></li>
@@ -240,7 +194,7 @@
     <!-- Home Page -->
     <section id="home" class="page-section">
       <h1>The Petal Project</h1>
-      <p id="hai"> Spreading awareness about mental health, breaking stigmas, and providing hope one post at a time.</p>
+      <p id="hai">   Spreading awareness about mental health, breaking stigmas, and providing hope one post at a time.</p>
       <h2>What We Do:</h2>
       <ul>
         <li>Share resources and tips for mental wellness</li>
@@ -249,25 +203,21 @@
         <li>Encourage positivity, healing, and understanding</li>
       </ul>
 
-      <img class="interest" src="assets/mental-health-collage.jpg"
-        alt="Collage of supportive mental health awareness graphics" />
+      <img class="interest" src="assets/mental-health-collage.jpg" alt="Collage of supportive mental health awareness graphics" />
       <h6>Through colorful posts, uplifting messages, and facts, we aim to help people feel less alone.</h6>
 
       <img class="interest" src="assets/community.jpg" alt="Group of people holding awareness ribbons" />
       <h6>We believe in building community and connection — because mental health matters for everyone.</h6>
 
-      <p>Follow us on Instagram at <strong>@the_petalsproject</strong> to stay connected and help us grow our mission.
-      </p>
+      <p>Follow us on Instagram at <strong>@the_petalsproject</strong> to stay connected and help us grow our mission.</p>
 
       <section class="about-section" aria-label="Short About Me">
         <img src="assets/tanvi-photo.jpg" alt="Photo of Tanvi" />
         <h2>About Me</h2>
-        <p>Hi! I’m Tanvi, the creator of The Petal Project. I’m passionate about raising awareness for mental health,
-          especially the conditions that don’t get talked about enough.
-          I started this project to help people feel supported, inspired, and informed.
-          Somethings about me is that I love going to the beach, shopping with friends, and going on coffee runs! <3.
-  
-            <button class="read-more-btn" aria-label="Read more about Tanvi" data-page-link="about">Read More</button>
+        <p>Hi! I’m Tanvi, the creator of The Petal Project. I’m passionate about raising awareness for mental health, especially the conditions that don’t get talked about enough.  
+          I started this project to help people feel supported, inspired, and informed.  
+          Somethings about me is that I love going to the beach, shopping with friends, and going on coffee runs! <3.</p>
+        <button class="read-more-btn" aria-label="Read more about Tanvi" data-page-link="about">Read More</button>
       </section>
     </section>
 
@@ -276,56 +226,40 @@
       <h1>About Me</h1>
       <img class="profile-photo" src="assets/tanvi-photo.jpg" alt="Photo of Tanvi" />
       <div class="bio-text">
-        <p> Beyond The Petal Project, I spend my time volunteering, finding new coffee shops, and hanging out with my friends.
-          I love going to the beach, especially at night, late-night movie marathons, and trying to bake recipes I find online (even if they don’t always work out).
-          Right now, I’m focused on enjoying high school and making the most out of every opportunity.
-</p>
-        <p> 
-.</p>
-        <p>Thank you for visiting! I hope this site encourages you to take care of your mental wellness and to support
-          those around you.</p>
-      </div>
+        <p>Hi! I’m Tanvi, the creator behind The Petal Project. I started this initiative because I believe mental health awareness is vital, especially for the less discussed conditions that often get overlooked.</p>
+        <p>This project is my way of creating a safe and supportive space online where people can find resources, feel inspired, and know they are not alone. My goal is to break stigmas and spread hope through education and community.</p>
+        <p>Beyond The Petal Project, I spend my time volunteering, finding new coffee shops, and hanging out with friends. I love going to the beach, especially during sunset, late-night movie marathons, and trying to bake recipes I find online (even if they don’t always work out). Right now, I’m focused on enjoying high school, and making the most out of every oppurtunity
     </section>
 
     <!-- Requests Page -->
     <section id="requests" class="page-section" style="display:none;">
       <h1>Requests</h1>
       <p>Want to see more of something on The Petal Project? Submit your ideas below!</p>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdnbEKml5D9We-n-3P-s6jJgqbsdi6lfqb9_hlWguLWsnJmAQ/viewform?embedded=true"
-        width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnbEKml5D9We-n-3P-s6jJgqbsdi6lfqb9_hlWguLWsnJmAQ/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
 
     <!-- Resources Page -->
     <section id="resources" class="page-section" style="display:none;">
       <h1>Helpful Resources & Links</h1>
       <ul>
-        <li><a href="https://www.nami.org/Home" target="_blank" rel="noopener noreferrer">NAMI - National Alliance on
-            Mental Illness</a></li>
-        <li><a href="https://suicidepreventionlifeline.org/" target="_blank" rel="noopener noreferrer">Suicide
-            Prevention Lifeline</a></li>
+        <li><a href="https://www.nami.org/Home" target="_blank" rel="noopener noreferrer">NAMI - National Alliance on Mental Illness</a></li>
+        <li><a href="https://suicidepreventionlifeline.org/" target="_blank" rel="noopener noreferrer">Suicide Prevention Lifeline</a></li>
         <li><a href="https://www.mentalhealth.gov/" target="_blank" rel="noopener noreferrer">MentalHealth.gov</a></li>
-        <li><a href="https://www.mhanational.org/" target="_blank" rel="noopener noreferrer">Mental Health America</a>
-        </li>
-        <li><a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank"
-            rel="noopener noreferrer">SAMHSA National Helpline</a></li>
+        <li><a href="https://www.mhanational.org/" target="_blank" rel="noopener noreferrer">Mental Health America</a></li>
+        <li><a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank" rel="noopener noreferrer">SAMHSA National Helpline</a></li>
       </ul>
     </section>
 
     <!-- Contact Page -->
     <section id="contact" class="page-section contact-section" style="display:none;">
       <h1>Contact Us</h1>
-      <p>Use the form below to get in touch, or email us directly at <a
-          href="mailto:petalprojectofficial@gmail.com">petalprojectofficial@gmail.com</a>.</p>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfPojCVPrRLkxfa0IZK0a9B-9PGiK8n89ZDERpnuBQ2wE-IUA/viewform?embedded=true"
-        width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <p>Use the form below to get in touch, or email us directly at <a href="mailto:petalprojectofficial@gmail.com">petalprojectofficial@gmail.com</a>.</p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPojCVPrRLkxfa0IZK0a9B-9PGiK8n89ZDERpnuBQ2wE-IUA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 The Petal Project &mdash; Follow us on <a href="https://instagram.com/the_petalsproject" target="_blank"
-        rel="noopener noreferrer">@the_petalsproject</a></p>
+    <p>© 2025 The Petal Project &mdash; Follow us on <a href="https://instagram.com/the_petalsproject" target="_blank" rel="noopener noreferrer">@the_petalsproject</a></p>
   </footer>
 
   <script>
@@ -365,5 +299,4 @@
   </script>
 
 </body>
-
 </html>
