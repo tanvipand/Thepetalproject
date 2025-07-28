@@ -1,0 +1,213 @@
+/* STYLE SECTIONING TAGS */
+/*note: PLEASE make it so the explain pages have their own ids because mamacita it hurts my soul*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  text-align: center;
+}
+body {
+ background-color: #3a3054; 
+}
+#bleach {
+  background-color: white;
+}
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*the section section*/
+section {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.creepingshadows {
+  background-color: #543030;
+  color: #fdbaba;
+}
+.fallenstars {
+  background-color: #3c2640;
+  color: #e8bafd;
+}
+.cookierun {
+  background-color: #e4c88b;
+  color: saddlebrown;
+}
+.nost {
+  background-color: lightseagreen;
+  color: azure;
+}
+#library {
+  text-align: left;
+}
+#favorite {
+  background-color: firebrick;
+  border: 3px solid orange;
+}
+#netherhate {
+  background-color: #3c0101;
+  border: 3px dashed red;
+}
+/* STYLE TEXT */
+/*le normal section for le normal text*/
+h1 {
+  color: powderblue;
+  font-family: arial;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#titlebleached {
+  color: darkslateblue;
+}
+#sigma {
+  font-family: "Comic Sans MS";
+}
+h2 {
+  color: #96bbc0;
+  font-size: 35px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+h3 {
+  color: skyblue;
+  font-size: 30px;
+}
+#nosttitle {
+  color: white;
+}
+h5 {
+  color: white;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+h6 {
+  color: white;
+  font-family: "Comic Sans MS";
+  margin-left: 15px;
+  margin-right: 15px;
+}
+p {
+  color: #6ff9fb;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+#favorite p {
+  color: yellow;
+}
+#netherhate p {
+  color: white;
+}
+nav p {
+  color: #230033;
+  font-family: "Comic Sans MS";
+}
+#pbleached {
+  color: black;
+}
+#hai {
+  font-family: "Comic Sans MS";
+  color: mistyrose;
+}
+a {
+  color: lavender;
+  text-decoration-color: violet;
+}
+.voca {
+  color: fuchsia;
+  text-decoration-color: fuchsia;
+  margin: 20px;
+}
+ul {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+}
+li {
+  color: lavender;
+  font-family: "Comic Sans MS";
+  text-align: left;
+  margin-left: 30px;
+  /*oh mamacita now the list part is gone elizabeth why did you tell me to squish the website*/
+}
+nav li {
+  padding: 2em;
+  margin: 2px;
+  display: inline;
+}
+li a {
+  text-decoration: none;
+}
+li a:hover {
+  color: indigo;
+}
+nav ul {
+  padding: 5px;
+}
+#facts {
+  text-align: left;
+}
+#here {
+  list-style: "★ ";
+}
+strong {
+  color: red;
+}
+#library strong {
+  color: deepskyblue;
+}
+#favorite em {
+  color: lightyellow;
+}
+#horror {
+  color: crimson;
+  text-shadow: 1px 1px black, -1px -1px #f52e2e;
+}
+/* STYLE IMAGES */
+img {
+  /*teenieping images will need to have special resizes, as will the homepage ones*/
+  /*gallery images need to be center-aligned, as will millie*/
+  max-width: 50%;
+  max-height: 60%;
+  border: 2px solid hotpink;
+  margin: 15px;
+  margin-bottom: 5px;
+}
+.csimg {
+  border: 5px solid gold;
+}
+.fsimg {
+  border: 5px solid white;
+}
+.crimg {
+  border: 5px solid cornsilk;
+}
+.nostimg {
+  border: 5px solid maroon;
+}
+#pfp {
+  max-height: 400px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+#gallery img {
+  border: 5px solid skyblue;
+  border-radius: 5%;
+}
+.ping {
+  width: auto;
+  height: 400px;
+}
+.interest {
+  border-radius: 5%;
+}
+/* STYLE NAV BAR */
+nav {
+  background-color: #937ec8;
+}
